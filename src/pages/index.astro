@@ -1,0 +1,29 @@
+---
+// 這裡是在伺服器端執行的 JavaScript
+import DoctorProfile from '../components/DoctorProfile.jsx';
+import '../index.css'; // 引入原本的 Tailwind 樣式設定
+---
+
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    
+    <title>周孟翰醫師 | 新店高美泌尿科診所院長</title>
+    <meta name="description" content="新店高美泌尿科診所院長周孟翰醫師個人網站。專長包括攝護腺肥大微創手術、泌尿道感染治療、性傳染病篩檢與男性性功能障礙治療。提供專業、隱私且溫暖的診療服務。" />
+    <meta name="keywords" content="周孟翰, 泌尿科, 新店高美, 攝護腺肥大, UroLift, Rezūm, 菜花, 性病, 結紮" />
+    
+    <meta property="og:title" content="周孟翰醫師" />
+    <meta property="og:description" content="治療沒有絕對的好壞，只有最適合您的選擇。預約周孟翰醫師門診，找回您的自信與健康。" />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <DoctorProfile client:load />
+  </body>
+</html>
