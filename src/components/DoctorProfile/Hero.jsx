@@ -46,21 +46,7 @@ export default function Hero() {
                     <div className="absolute inset-0 flex items-center justify-center text-gray-400 font-serif opacity-30">
                       <User size={120} />
                     </div>
-                    {/* Floating Card */}
-                    <div className="absolute bottom-10 left-0 md:-left-12 bg-white/90 backdrop-blur-md p-6 rounded-xl shadow-xl border-l-4 border-[#C5A065] max-w-xs">
-                        <div className="flex items-start gap-4">
-                           <div className="p-2 bg-[#F9F8F6] rounded-full text-[#C5A065]">
-                              <Activity size={24} />
-                           </div>
-                           <div>
-                              <h4 className="font-bold text-gray-800 mb-1">精準微創</h4>
-                              <p className="text-xs text-gray-500 leading-relaxed">
-                                 攝護腺水蒸氣消融 (Rezūm) <br/>
-                                 UroLift 拉提手術
-                              </p>
-                           </div>
-                        </div>
-                     </div>
+                    
                  </div>
               </div>
            </div>
