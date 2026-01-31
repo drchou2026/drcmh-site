@@ -10,9 +10,6 @@ export default function Hero() {
       <div className="container mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center">
         {/* Left Content */}
         <div className="w-full md:w-5/12 pt-10 md:pt-0 z-20">
-          <div className="hero-tag">
-             <span className="text-xs font-bold tracking-widest uppercase">PERSONAL BRAND</span>
-          </div>
           
           <h1 className="hero-title">
             {DOCTOR_PROFILE.name}<br/>
