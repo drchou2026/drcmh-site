@@ -1,0 +1,5 @@
+# 繼續封鎖 Cloudflare 的預覽網址 (避免重複內容)
+https://*.pages.dev/*
+  X-Robots-Tag: noindex, nofollow
+
+# 正式網域不需要任何標籤 (預設就是允許)，所以不用寫
